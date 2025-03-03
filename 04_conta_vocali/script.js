@@ -10,7 +10,7 @@ function countVowels(string) {
     const vowels = 'aeiou'; // Le vocali
   
     // Ciclo per scorrere ogni carattere della stringa
-    for (let i = 0; i < str.length; i++) {
+    for (let i = 0; i < string.length; i++) {
       // Controlla se il carattere è una vocale
       for (let j = 0; j < vowels.length; j++) {
         if (string[i].toLowerCase() === vowels[j]) {
