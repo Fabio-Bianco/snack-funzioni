@@ -5,6 +5,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function filterNameLetter (array, letter) {
+    let result = [];
+}
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
