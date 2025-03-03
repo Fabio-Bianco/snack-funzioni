@@ -7,6 +7,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 function filterNameLetter (array, letter) {
     let result = [];
+    for (let i = 0; i < arr.length; i++)
 }
 
 
