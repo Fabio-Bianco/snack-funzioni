@@ -3,16 +3,28 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
-// Dichiara la funzione qui.
+Dichiara la funzione qui.
 
 function filterNameLetter (array, letter) {
     let result = [];
-    for (let i = 0; i < arr.length; i++)
+    for (let i = 0; i < array.length; i++) {
+        if (array[i][0] === letter) result.push(array[i]);
+    }
+
+    return result;
 }
 
 
 // Invoca la funzione qui e stampa il risultato in console
+filterNameLetter (array, letter);
+console.log(filterNameLetter(names, "A"));
 
+// Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
 
+// RISULTATO UTILIZZANDO IL METODO FILTER
 
-//Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+// function filterNameLetter (array, letter) {
+//     return array.filter (name => name[0] === letter);
+// }
+
+// console.log(filterNameLetter(names, "A"));
