@@ -5,7 +5,7 @@ const word = 'javascript';
 
 // Dichiara la funzione qui.
 
-function countVowels(str) {
+function countVowels(string) {
     let count = 0; // Contatore delle vocali
     const vowels = 'aeiou'; // Le vocali
   
@@ -13,7 +13,7 @@ function countVowels(str) {
     for (let i = 0; i < str.length; i++) {
       // Controlla se il carattere è una vocale
       for (let j = 0; j < vowels.length; j++) {
-        if (str[i].toLowerCase() === vowels[j]) {
+        if (string[i].toLowerCase() === vowels[j]) {
           count++;
         }
       }
@@ -30,11 +30,11 @@ function countVowels(str) {
 
 // RISULTATO UTILIZZANDO INCLUDES
 
-// function countVowels(str) {
+// function countVowels(string) {
 //     const vowels = 'aeiou'; 
 //     let count = 0;
 //     for (let i = 0; i < str.length; i++) {
-//         if (vowels.includes(str[i].toLowerCase())) {
+//         if (vowels.includes(string[i].toLowerCase())) {
 //           count++;
 //         }
 //       }
