@@ -2,7 +2,7 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-
+ 
 // Dichiara la funzione qui.
 
 function filterNameLetter (array, letter) {
@@ -16,10 +16,7 @@ function filterNameLetter (array, letter) {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-filterNameLetter (array, letter);
-console.log(filterNameLetter(names, "A"));
-
-// Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+console.log(filterNameLetter(names, "L"));
 
 // RISULTATO UTILIZZANDO IL METODO FILTER
 
