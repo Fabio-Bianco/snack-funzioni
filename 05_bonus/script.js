@@ -11,21 +11,21 @@ const name = 'Fabio';
 
 // Dichiara la funzione qui.
 
-// function greeting(nome) {
-//     const now = new Date().getHours(); // Ottiene l'ora corrente
+function greeting(nome) {
+    const now = new Date().getHours(); // Ottiene l'ora corrente
     
-//     let salute;
+    let salute;
     
-//     if (now < 13) {
-//       salute = 'Buongiorno';
-//     } else if (now < 17) {
-//       salute = 'Buon pomeriggio';
-//     } else {
-//       salute = 'Buonasera';
-//     }
+    if (now < 13) {
+      salute = 'Buongiorno';
+    } else if (now < 17) {
+      salute = 'Buon pomeriggio';
+    } else {
+      salute = 'Buonasera';
+    }
     
-//     alert(`${salute} ${nome}.`); // Mostra il saluto in un alert
-//   }
+    alert(`${salute} ${nome}.`); // Mostra il saluto in un alert
+  }
   
 
 // // Invoca la funzione qui e stampa il risultato in console
@@ -35,7 +35,7 @@ const name = 'Fabio';
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
 
-// RISULKATO ALTERNATIVO
+// RISULTATO ALTERNATIVO
 
 // function sayHello (input){
 
