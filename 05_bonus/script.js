@@ -31,7 +31,7 @@ function greeting(nome) {
 // // Invoca la funzione qui e stampa il risultato in console
 
 
-// console.log(greeting(name));
+console.log(greeting(name));
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
 
