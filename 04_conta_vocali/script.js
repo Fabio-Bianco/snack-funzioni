@@ -24,7 +24,7 @@ function countVowels(string) {
   
   // Invoca la funzione e stampa il risultato in console
 
-  console.log(countVowels(word)); 
+  // console.log(countVowels(word)); 
   
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
 
@@ -43,3 +43,19 @@ function countVowels(string) {
 //     }
 
 //     console.log(countVowels(word));
+
+// RISULTATo ALTERNATIVO
+
+// function countVowels (input) {
+ 
+//   let count = 0;
+//   for (let i = 0; i < input.length; i++) {
+//     if (input[i] === 'a' || input[i] === 'e' || input[i] === 'i' || input[i] === 'o' || input[i] === 'u') {
+//       count++;
+//     }
+//   }
+
+//   return count;
+// }
+
+
