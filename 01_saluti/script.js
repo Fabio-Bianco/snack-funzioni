@@ -4,8 +4,10 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
+
 function saluta (nome) {
-    return `Ciao ${nome}`;
+    let ciao = `Ciao ${nome}`
+    return ciao
 }
 
 
@@ -13,6 +15,18 @@ function saluta (nome) {
 
 console.log(saluta(userName));
 
-
-
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+// // RISULTATO CON ARROW-FUNCTION
+
+// const saluta = (nome) => { 
+//     let ciao = `Ciao ${nome}`
+//     return ciao
+// }
+
+// // RISULTATO CON ARROW-FUNCTION
+
+// const saluta = (nome) => `Ciao ${nome}`
+// conslole.log(saluta(userName));
+
+
