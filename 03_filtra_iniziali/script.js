@@ -25,3 +25,7 @@ console.log(filterNameLetter(names, "L"));
 // }
 
 // console.log(filterNameLetter(names, "A"));
+
+// RISULLTATO ALTERNATIVO
+
+
